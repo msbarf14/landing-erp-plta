@@ -57,7 +57,7 @@ const data = ref([
   { title: 'ERP LTA', category: 'Inventory', link: '#', status: 'running', icon: () => IconSap},
   { title: 'ERP TAA', category: 'Inventory', link: '#', status: 'running', icon: () =>  IconSap},
   { title: 'SFA PORTAL', category: 'Web Apps', link: '#', status: 'running', icon: () =>  IconSfa},
-  { title: 'MMR PWA', category: 'Mobile Apps', link: 'https://mmr.erplta.com/login', status: 'running', icon: () =>  IconMmr},
+  { title: 'MMR PWA', category: 'Mobile Apps', link: 'https://mmr.erplta.com', status: 'running', icon: () =>  IconMmr},
   { title: 'PALTAFILE', category: 'Web Apps', link: '#', status: 'running', icon: () =>  IconPaltafile},
 ])
 

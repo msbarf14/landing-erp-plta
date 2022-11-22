@@ -58,7 +58,7 @@
     { title: 'ERP LTA', category: 'Inventory', link: '#', status: 'running', icon: () => IconSap},
     { title: 'ERP TAA', category: 'Inventory', link: '#', status: 'running', icon: () =>  IconSap},
     { title: 'SFA PORTAL', category: 'Web Apps', link: '#', status: 'running', icon: () =>  IconSfa},
-    { title: 'MMR PWA', category: 'Mobile Apps', link: 'https://mmr.erplta.com', status: 'running', icon: () =>  IconMmr},
+    { title: 'MMR PWA', category: 'Mobile Apps', link: 'http://mmr.avenzhore.space', status: 'running', icon: () =>  IconMmr},
     { title: 'E-FACTURE', category: 'Web Apps', link: 'https://faktur.erplta.com/public/login', status: 'running', icon: () =>  IconFacture},
     { title: 'PALTAFILE', category: 'Web Apps', link: '', status: 'running', icon: () =>  IconPaltafile},
   ])

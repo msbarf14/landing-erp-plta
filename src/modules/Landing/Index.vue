@@ -52,19 +52,20 @@
   import IconSfa from "../../components/IconSfa.vue"
   import IconMmr from "../../components/IconMmr.vue"
   import IconPaltafile from "../../components/IconPaltafile.vue"
+  import IconFacture from "../../components/IconFacture.vue"
   
   const data = ref([
     { title: 'ERP LTA', category: 'Inventory', link: '#', status: 'running', icon: () => IconSap},
     { title: 'ERP TAA', category: 'Inventory', link: '#', status: 'running', icon: () =>  IconSap},
     { title: 'SFA PORTAL', category: 'Web Apps', link: '#', status: 'running', icon: () =>  IconSfa},
     { title: 'MMR PWA', category: 'Mobile Apps', link: 'https://mmr.erplta.com', status: 'running', icon: () =>  IconMmr},
-    { title: 'PALTAFILE', category: 'Web Apps', link: '#', status: 'running', icon: () =>  IconPaltafile},
+    { title: 'E-FACTURE', category: 'Web Apps', link: 'https://faktur.erplta.com/public/login', status: 'running', icon: () =>  IconFacture},
+    { title: 'PALTAFILE', category: 'Web Apps', link: '', status: 'running', icon: () =>  IconPaltafile},
   ])
   
   const isDark = useDark()
   const toggleDark = () => {
     isDark.value = !isDark.value
   }
-  
   
   </script>
